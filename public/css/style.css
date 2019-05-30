@@ -1,0 +1,307 @@
+@font-face{
+    font-family: 'chunkfiveroman';
+    src: url('chunkfive-webfont.woff2') format('woff2'),
+         url('chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.parallax{
+	background-image: url("/img/dkr_night.jpg");
+	height: 425px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -5px;
+}
+
+header{
+	background: #bf5617;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.wrapper{
+	display: inline-block;
+}
+
+header img{
+	height: 80px;
+	width: auto;
+	float: left;
+	margin-top: 10px;
+}
+
+#title{
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+h1, h2{
+	font-family: "chunkfiveroman";
+	font-size: 55px;
+	text-align: center;
+}
+
+h2{
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+#menu{
+	background: white;
+	color: #bf5617;
+	display: inline-block;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#saved{
+	float: left;
+}
+
+#scrape-options{
+	float: right;
+}
+
+li{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+li:before{
+	content: '';
+	border-left: 2px solid #bf5617;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ul li:first-child:before{
+	display: none;
+}
+
+li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+footer{
+	background: white;
+	color: #bf5617;
+	text-align: center;
+}
+
+footer h1{
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.display-none{
+	display: none;
+}
+
+.news-article{
+	font-family: "Arial";
+	color: #bf5617;
+	border: 2px solid #bf5617;
+	margin-top: 20px;
+	padding: 15px;
+	display: inline-block;
+	text-align: left;
+	width: 90%;
+}
+
+.news-article-img{
+	width: 150px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	margin-right: 30px;
+}
+
+.news-article-info{
+	float: left;
+	width: 80%;
+}
+
+h3{
+	font-size: 30px;
+	margin-bottom: 7px;
+}
+
+a{
+	text-decoration: none;
+	color: #bf5617;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #bf5617;
+}
+
+.author{
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.summary{
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+button{
+	font-size: 18px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.not-saved{
+	color: #bf5617;
+	border: 1px solid #bf5617;
+	background: white;
+	font-family: "chunkfiveroman";
+	padding: 7px;
+}
+
+.saved{
+	color: white;
+	border: 1px solid #bf5617;
+	background: #bf5617;
+	font-family: "chunkfiveroman";
+	padding: 7px;
+}
+
+.modal{
+	color: #bf5617;
+	font-family: "chunkfiveroman";
+	margin-top: 100px;
+}
+
+.modal-body{
+	border-top: 1px solid #bf5617;
+	border-bottom: 1px solid #bf5617;
+}
+
+h5{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.modal p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn-secondary{
+	color: #bf5617;
+	border: 1px solid #bf5617;
+	background: white;
+}
+
+.btn-secondary:hover{
+	color: white;
+	border: 1px solid #bf5617;
+	background: #bf5617;
+}
+
+/* Unique to saved.handlebars */
+.parallax-saved{
+	background-image: url("/img/texas-football-background.jpg");
+	height: 425px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -5px;
+}
+
+.article-group{
+	border: 2px solid #bf5617;
+	padding: 10px 10px 20px 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.unsave, .comment{
+	color: #bf5617;
+	border: 1px solid #bf5617;
+	background: white;
+	font-family: "chunkfiveroman";
+	padding: 7px;
+}
+
+.unsave:hover{
+	background: #bf5617;
+	color: white;
+	cursor: pointer;
+}
+
+.comment:hover{
+	background: #bf5617;
+	color: white;
+	cursor: pointer;
+}
+
+.close{
+	color: #bf5617;
+	opacity: 1;
+}
+
+.close:hover{
+	color: #bf5617;
+	opacity: 1;
+}
+
+.modal-body{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.opinion{
+	border-bottom: 1px solid #bf5617;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	display: inline-block;
+	width: 100%;
+}
+
+.opinion:last-child{
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.opinion span{
+	text-align: left;
+	margin-bottom: .6rem;
+	width: 80%;
+	float: left;
+}
+
+#new-comment {
+	height: 100px;
+	width: 100%;
+	margin-bottom: .6rem;
+}
+
+#submit-new-comment, .delete-comment{
+	float: right;
+	font-family: 'chunkfiveroman';
+}
